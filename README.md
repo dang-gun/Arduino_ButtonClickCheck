@@ -98,6 +98,18 @@ BtnPush2Set(bool bBtnPush2Value)|@param bBtnPush2Value 기존 상태값에 저�
 
 ## Update history
 
+### 2023-05-17 : 
+- BtnPush2Set 기능 추가
+- 저장소 분리
+
+### 2023-05-15 : 
+- 주석 정리
+
+### 2023-05-11 : 
+- '4=First Up' 기능 추가
+
+### 2019-07-28 : 
+- 개발 완료
 
 ## Contributing
 
