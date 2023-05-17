@@ -114,3 +114,5 @@ See also the list of [contributors](https://github.com/dang-gun/ArduinoSample/co
 who participated in this project.
 
 
+## License
+[MIT](https://github.com/dang-gun/Arduino_ButtonClickCheck/blob/main/LICENSE)
