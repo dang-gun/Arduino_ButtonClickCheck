@@ -2,7 +2,7 @@
 
 This is a library for checking the state of a button connected to an Arduino.
 
-Detailed explanation (Korean) : [[Arduino] ¹öÆ° Ã³¸®¸¦ À§ÇÑ ¶óÀÌºê·¯¸® - ButtonClickCheck](https://blog.danggun.net/7268)
+Detailed explanation (Korean) : [[Arduino] ë²„íŠ¼ ì²˜ë¦¬ë¥¼ ìœ„í•œ ë¼ì´ë¸ŒëŸ¬ë¦¬ - ButtonClickCheck](https://blog.danggun.net/7268)
 
 
 ## Index
@@ -57,9 +57,9 @@ Put the code below in your sketch to test it.
 #define Button01 2
 #define Button02 4
 
-//Å×½ºÆ® 1
+//í…ŒìŠ¤íŠ¸ 1
 ButtonClickCheck BCC_1(HIGH);
-//Å×½ºÆ® 2
+//í…ŒìŠ¤íŠ¸ 2
 ButtonClickCheck BCC_2(LOW);
 
 void setup() 
@@ -73,7 +73,7 @@ void setup()
 void loop() 
 {
   
-  //ÄÄÇ»ÅÍ¿¡ ½ÅÈ£¸¦ ÁØ´Ù.
+  //ì»´í“¨í„°ì— ì‹ í˜¸ë¥¼ ì¤€ë‹¤.
   int nBtnState01 = BCC_1.ClickCheck(digitalRead(Button01));
   int nBtnState02 = BCC_2.ClickCheck(digitalRead(Button02));
   
@@ -87,14 +87,14 @@ void loop()
 
 ## Document
 
-ÀÌ¸§|¿µ¾î
+ì´ë¦„|ì˜ì–´
 ---|---|
-ButtonClickCheck(int nButtonUpLevel)|¹öÆ° ÆÇ´ÜÀ» À§ÇÑ ¶óÀÌºê·¯¸®<br />@param nButtonUpLevel ¹öÆ°ÀÌ ´­¸®Áö ¾Ê¾ÒÀ»¶§ ÆÇ´Ü°ª. LOW or HIGH
-ButtonClickCheck(uint8_t uintPin, int nButtonUpLevel)|¹öÆ° ÆÇ´ÜÀ» À§ÇÑ ¶óÀÌºê·¯¸®(»ç¿ëÇÒ ÇÉ ÁöÁ¤)<br />@param uintPin ÇÉÀ» ¹Ì¸® ÁöÁ¤ÇÑ´Ù.<br />@param nButtonUpLevel ¹öÆ°ÀÌ ´­¸®Áö ¾Ê¾ÒÀ»¶§ ÆÇ´Ü°ª. LOW or HIGH
-|
-int ClickCheck()|ÀúÀåµÈ ÇÉ¹øÈ£ÀÇ °ªÀ» ÀĞ¾î Å¬¸¯Á¤º¸¸¦ ÆÇ´ÜÇÑ´Ù.<br />@return 1=Up, 2=Down, 3=First Down, 4=First Up
-int ClickCheck(int nDigitalRead)|Àü´ŞµÈ °ªÀ» ÀĞ¾î Å¬¸¯Á¤º¸¸¦ ÆÇ´ÜÇÑ´Ù.<br />@param nDigitalRead ÀÔ·ÂµÈ µğÁöÅĞ °ª(Àü´ŞµÈ °ª)<br />@return 1=Up, 2=Down, 3=First Down, 4=First Up
-BtnPush2Set(bool bBtnPush2Value)|@param bBtnPush2Value ±âÁ¸ »óÅÂ°ª¿¡ ÀúÀåÇÒ µ¥ÀÌÅÍ. on=true, off=false
+ButtonClickCheck(int nButtonUpLevel)|ë²„íŠ¼ íŒë‹¨ì„ ìœ„í•œ ë¼ì´ë¸ŒëŸ¬ë¦¬<br />@param nButtonUpLevel ë²„íŠ¼ì´ ëˆŒë¦¬ì§€ ì•Šì•˜ì„ë•Œ íŒë‹¨ê°’. LOW or HIGH
+ButtonClickCheck(uint8_t uintPin, int nButtonUpLevel)|ë²„íŠ¼ íŒë‹¨ì„ ìœ„í•œ ë¼ì´ë¸ŒëŸ¬ë¦¬(ì‚¬ìš©í•  í•€ ì§€ì •)<br />@param uintPin í•€ì„ ë¯¸ë¦¬ ì§€ì •í•œë‹¤.<br />@param nButtonUpLevel ë²„íŠ¼ì´ ëˆŒë¦¬ì§€ ì•Šì•˜ì„ë•Œ íŒë‹¨ê°’. LOW or HIGH
+ | 
+int ClickCheck()|ì €ì¥ëœ í•€ë²ˆí˜¸ì˜ ê°’ì„ ì½ì–´ í´ë¦­ì •ë³´ë¥¼ íŒë‹¨í•œë‹¤.<br />@return 1=Up, 2=Down, 3=First Down, 4=First Up
+int ClickCheck(int nDigitalRead)|ì „ë‹¬ëœ ê°’ì„ ì½ì–´ í´ë¦­ì •ë³´ë¥¼ íŒë‹¨í•œë‹¤.<br />@param nDigitalRead ì…ë ¥ëœ ë””ì§€í„¸ ê°’(ì „ë‹¬ëœ ê°’)<br />@return 1=Up, 2=Down, 3=First Down, 4=First Up
+BtnPush2Set(bool bBtnPush2Value)|@param bBtnPush2Value ê¸°ì¡´ ìƒíƒœê°’ì— ì €ì¥í•  ë°ì´í„°. on=true, off=false
 
 ## Update history
 
