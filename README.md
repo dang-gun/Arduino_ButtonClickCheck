@@ -87,11 +87,11 @@ void loop()
 
 ## Document
 
-이름|영어
+Name|Description
 ---|---|
 ButtonClickCheck(int nButtonUpLevel)|버튼 판단을 위한 라이브러리<br />@param nButtonUpLevel 버튼이 눌리지 않았을때 판단값. LOW or HIGH
 ButtonClickCheck(uint8_t uintPin, int nButtonUpLevel)|버튼 판단을 위한 라이브러리(사용할 핀 지정)<br />@param uintPin 핀을 미리 지정한다.<br />@param nButtonUpLevel 버튼이 눌리지 않았을때 판단값. LOW or HIGH
- | 
+&nbsp;|&nbsp; 
 int ClickCheck()|저장된 핀번호의 값을 읽어 클릭정보를 판단한다.<br />@return 1=Up, 2=Down, 3=First Down, 4=First Up
 int ClickCheck(int nDigitalRead)|전달된 값을 읽어 클릭정보를 판단한다.<br />@param nDigitalRead 입력된 디지털 값(전달된 값)<br />@return 1=Up, 2=Down, 3=First Down, 4=First Up
 BtnPush2Set(bool bBtnPush2Value)|@param bBtnPush2Value 기존 상태값에 저장할 데이터. on=true, off=false
