@@ -8,6 +8,8 @@ Detailed explanation (Korean) : [[Arduino] 버튼 처리를 위한 라이브러�
 Differentiate the output when the state does not change and when the state changes.  
 Using this state, you can easily program it to act only once when the button's state changes.
 
+![ButtonClickCheck_001_003](https://github.com/dang-gun/Arduino_ButtonClickCheck/assets/22692763/6ed0a0a9-4a79-429b-91c5-dd5e76fbfb1b)
+
 
 ## Index
   - [Overview](#overview) 
@@ -90,6 +92,9 @@ void loop()
   delay(500);
 }
 ```
+
+![ButtonClickCheck_001_001](https://github.com/dang-gun/Arduino_ButtonClickCheck/assets/22692763/7b9c1dce-d523-4f1e-81da-683c7d5de399)
+
 
 ## Document
 
