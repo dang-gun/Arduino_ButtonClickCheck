@@ -4,6 +4,10 @@ This is a library for checking the state of a button connected to an Arduino.
 
 Detailed explanation (Korean) : [[Arduino] 버튼 처리를 위한 라이브러리 - ButtonClickCheck](https://blog.danggun.net/7268)
 
+<br />
+Differentiate the output when the state does not change and when the state changes.  
+Using this state, you can easily program it to act only once when the button's state changes.
+
 
 ## Index
   - [Overview](#overview) 
@@ -38,6 +42,8 @@ Tested on Arduino 1.8.19
 Create 'ButtonClickCheck' folder in 'libraries' folder of Arduino software
 
 Insert 'ButtonClickCheck.h', 'ButtonClickCheck.cpp'.
+
+![Arduino_ButtonClickCheck_001](https://github.com/dang-gun/Arduino_ButtonClickCheck/assets/22692763/7f5401db-c170-4dd0-a4ab-208830573e62)
 
 Launch the Arduino software and add the following code.
 
