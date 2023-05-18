@@ -1,4 +1,4 @@
-# ButtonClickCheck
+# Button Click Check
 
 This is a library for checking the state of a button connected to an Arduino.
 
@@ -124,8 +124,7 @@ BtnPush2Set(bool bBtnPush2Value)|@param bBtnPush2Value Data to store in the exis
 ## Authors
   - [dang-gun](https://github.com/dang-gun)
 
-See also the list of [contributors](https://github.com/dang-gun/ArduinoSample/contributors)
-who participated in this project.
+A list of non-updating contributors can be found at [contributors](https://github.com/dang-gun/ArduinoSample/contributors).
 
 
 ## License
