@@ -119,11 +119,7 @@ BtnPush2Set(bool bBtnPush2Value)|@param bBtnPush2Value Data to store in the exis
 
 ## Contributing
 
-1) Fork (https://github.com/yourname/yourproject/fork).
-2) Create a new branch with (git checkout -b feature/fooBar) command.
-3) Commit with the command (git commit -am 'Add some fooBar').
-4) Push to the branch with (git push origin feature/fooBar) command.
-5) Please send a pull request.
+'Fork' the project to create a 'new branch' and then 'pull request'.
 
 ## Authors
   - [dang-gun](https://github.com/dang-gun)
