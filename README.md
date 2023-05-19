@@ -2,7 +2,7 @@
 
 This is a library for checking the state of a button connected to an Arduino.
 
-Detailed explanation (Korean) : [[Arduino] ¹öÆ° Ã³¸®¸¦ À§ÇÑ ¶óÀÌºê·¯¸® - ButtonClickCheck](https://blog.danggun.net/7268)
+Detailed explanation (Korean) : [[Arduino] ë²„íŠ¼ ì²˜ë¦¬ë¥¼ ìœ„í•œ ë¼ì´ë¸ŒëŸ¬ë¦¬ - ButtonClickCheck](https://blog.danggun.net/7268)
 
 <br />
 Differentiate the output when the state does not change and when the state changes.  
@@ -30,7 +30,7 @@ Using this state, you can easily program it to act only once when the button's s
 
 ## Getting Started
 
-- Download the file from github or
+- Download the file from [Releases](https://github.com/dang-gun/Arduino_ButtonClickCheck/releases)  or
 - Create 'ButtonClickCheck.h' and 'ButtonClickCheck.cpp' and copy the source.
 
 Follow the instructions below to install.
@@ -65,9 +65,9 @@ Put the code below in your sketch to test it.
 #define Button01 2
 #define Button02 4
 
-//Å×½ºÆ® 1
+//í…ŒìŠ¤íŠ¸ 1
 ButtonClickCheck BCC_1(HIGH);
-//Å×½ºÆ® 2
+//í…ŒìŠ¤íŠ¸ 2
 ButtonClickCheck BCC_2(LOW);
 
 void setup() 
@@ -81,7 +81,7 @@ void setup()
 void loop() 
 {
   
-  //ÄÄÇ»ÅÍ¿¡ ½ÅÈ£¸¦ ÁØ´Ù.
+  //ì»´í“¨í„°ì— ì‹ í˜¸ë¥¼ ì¤€ë‹¤.
   int nBtnState01 = BCC_1.ClickCheck(digitalRead(Button01));
   int nBtnState02 = BCC_2.ClickCheck(digitalRead(Button02));
   
