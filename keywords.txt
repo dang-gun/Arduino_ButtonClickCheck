@@ -1,0 +1,29 @@
+#######################################
+# Syntax Coloring Map For Test
+#######################################
+
+#######################################
+# Datatypes (KEYWORD1)
+#######################################
+
+ButtonClickCheck	KEYWORD1
+
+#######################################
+# Methods and Functions (KEYWORD2)
+#######################################
+
+ClickCheck	KEYWORD2
+BtnPush2Set	KEYWORD2
+
+######################################
+# Instances (KEYWORD2)
+#######################################
+direction	KEYWORD2
+speed	KEYWORD2
+
+
+#######################################
+# Constants (LITERAL1)
+#######################################
+Pin	LITERAL1
+ButtonUpLevel	LITERAL1

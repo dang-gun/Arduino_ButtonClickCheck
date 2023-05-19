@@ -2,7 +2,7 @@
 
 This is a library for checking the state of a button connected to an Arduino.
 
-Detailed explanation (Korean) : [[Arduino] ë²„íŠ¼ ì²˜ë¦¬ë¥¼ ìœ„í•œ ë¼ì´ë¸ŒëŸ¬ë¦¬ - ButtonClickCheck](https://blog.danggun.net/7268)
+Detailed explanation (Korean) : [[Arduino] ¹öÆ° Ã³¸®¸¦ À§ÇÑ ¶óÀÌºê·¯¸® - ButtonClickCheck](https://blog.danggun.net/7268)
 
 <br />
 Differentiate the output when the state does not change and when the state changes.  
@@ -65,9 +65,9 @@ Put the code below in your sketch to test it.
 #define Button01 2
 #define Button02 4
 
-//í…ŒìŠ¤íŠ¸ 1
+//Å×½ºÆ® 1
 ButtonClickCheck BCC_1(HIGH);
-//í…ŒìŠ¤íŠ¸ 2
+//Å×½ºÆ® 2
 ButtonClickCheck BCC_2(LOW);
 
 void setup() 
@@ -81,7 +81,7 @@ void setup()
 void loop() 
 {
   
-  //ì»´í“¨í„°ì— ì‹ í˜¸ë¥¼ ì¤€ë‹¤.
+  //ÄÄÇ»ÅÍ¿¡ ½ÅÈ£¸¦ ÁØ´Ù.
   int nBtnState01 = BCC_1.ClickCheck(digitalRead(Button01));
   int nBtnState02 = BCC_2.ClickCheck(digitalRead(Button02));
   
