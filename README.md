@@ -8,9 +8,7 @@ Detailed explanation (Korean) : [[Arduino] 버튼 처리를 위한 라이브러�
 Differentiate the output when the state does not change and when the state changes.  
 Using this state, you can easily program it to act only once when the button's state changes.
 
-[![maxresdefault](https://github.com/dang-gun/Arduino_ButtonClickCheck/assets/22692763/0e7a155e-40c0-49d0-bf3d-6a2592036f37)](https://youtu.be/fQSO-O-tE_c)
-
-
+[![설명영상](https://img.youtube.com/vi/fQSO-O-tE_c/0.jpg)](https://youtu.be/fQSO-O-tE_c?t=0s)
 
 ## Index
   - [Overview](#overview) 
