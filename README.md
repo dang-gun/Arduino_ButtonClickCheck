@@ -1,4 +1,4 @@
-# Button Click Check
+# Button Click Check (Library for Arduino)
 
 This is a library for checking the state of a button connected to an Arduino.
 
