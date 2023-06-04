@@ -2,7 +2,7 @@
 
 This is a library for checking the state of a button connected to an Arduino.
 
-Detailed explanation (Korean) : [[Arduino] 버튼 처리를 위한 라이브러리 - ButtonClickCheck](https://blog.danggun.net/7268)
+Detailed explanation (Korean) : [[Arduino] Button Click Check - 버튼 상태 저장 및 확인 라이브러리](https://blog.danggun.net/11097)
 
 <br />
 Differentiate the output when the state does not change and when the state changes.  
